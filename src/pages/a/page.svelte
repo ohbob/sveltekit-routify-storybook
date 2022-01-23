@@ -1,10 +1,13 @@
 <script>
-    import Button from '$components/Test/Test.svelte'
-  </script>
-  
+    import Button from '$components/Button2/index.svelte'
+</script>
 
-  <a href="../"> &#8592; </a>
-  <Button bg="red" />
-  <Button bg="green" />
-  <Button bg="yellow" color="black" />
-  <a href="./nested"> &#8594; </a>
+
+<a href="../"> &#8592; </a>
+<Button label="Default"/>
+<Button cls="primary" label="Primary"/>
+<Button cls="secondary" label="Secondary"/>
+
+<a href="./nested"> &#8594; </a>
+
+
