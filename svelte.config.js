@@ -20,7 +20,7 @@ const config = {
         },
       },
     },
-    router: true,
+    router: false,
   },
 
   preprocess: [preprocess({})],

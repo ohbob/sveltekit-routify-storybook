@@ -3,4 +3,4 @@
 </script>
 
 <h1>Welcome to SvelteKit + Routify</h1>
-<a href={$url('../a/page')}>a page</a>
+<a class="text-blue-700" href={$url('../a/page')}>&#x2192; a page</a>

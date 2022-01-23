@@ -15,6 +15,20 @@ export default {
   "children": [
     {
       "meta": {},
+      "id": "_default___layout_svelte",
+      "name": "__layout",
+      "module": () => import('../src/pages/__layout.svelte'),
+      "file": {
+        "path": "src/pages/__layout.svelte",
+        "dir": "src/pages",
+        "base": "__layout.svelte",
+        "ext": ".svelte",
+        "name": "__layout"
+      },
+      "children": []
+    },
+    {
+      "meta": {},
       "id": "_default_a",
       "name": "a",
       "module": false,
@@ -37,6 +51,20 @@ export default {
             "base": "__reset.svelte",
             "ext": ".svelte",
             "name": "__reset"
+          },
+          "children": []
+        },
+        {
+          "meta": {},
+          "id": "_default_a_index_svelte",
+          "name": "index",
+          "module": () => import('../src/pages/a/index.svelte'),
+          "file": {
+            "path": "src/pages/a/index.svelte",
+            "dir": "src/pages/a",
+            "base": "index.svelte",
+            "ext": ".svelte",
+            "name": "index"
           },
           "children": []
         },
