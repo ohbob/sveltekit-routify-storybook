@@ -3,30 +3,17 @@
 export default {
   "meta": {},
   "id": "_default",
+  "module": () => import('../src/pages/_module.svelte'),
   "file": {
-    "path": "src/pages",
-    "dir": "src",
-    "base": "pages",
-    "ext": "",
-    "name": "pages"
+    "path": "src/pages/_module.svelte",
+    "dir": "src/pages",
+    "base": "_module.svelte",
+    "ext": ".svelte",
+    "name": "_module"
   },
   "rootName": "default",
   "routifyDir": import.meta.url,
   "children": [
-    {
-      "meta": {},
-      "id": "_default___layout_svelte",
-      "name": "__layout",
-      "module": () => import('../src/pages/__layout.svelte'),
-      "file": {
-        "path": "src/pages/__layout.svelte",
-        "dir": "src/pages",
-        "base": "__layout.svelte",
-        "ext": ".svelte",
-        "name": "__layout"
-      },
-      "children": []
-    },
     {
       "meta": {},
       "id": "_default_a",
@@ -40,20 +27,6 @@ export default {
         "name": "a"
       },
       "children": [
-        {
-          "meta": {},
-          "id": "_default_a___reset_svelte",
-          "name": "__reset",
-          "module": () => import('../src/pages/a/__reset.svelte'),
-          "file": {
-            "path": "src/pages/a/__reset.svelte",
-            "dir": "src/pages/a",
-            "base": "__reset.svelte",
-            "ext": ".svelte",
-            "name": "__reset"
-          },
-          "children": []
-        },
         {
           "meta": {},
           "id": "_default_a_index_svelte",
@@ -72,13 +45,13 @@ export default {
           "meta": {},
           "id": "_default_a_nested",
           "name": "nested",
-          "module": false,
+          "module": () => import('../src/pages/a/nested/_module.svelte'),
           "file": {
-            "path": "src/pages/a/nested",
-            "dir": "src/pages/a",
-            "base": "nested",
-            "ext": "",
-            "name": "nested"
+            "path": "src/pages/a/nested/_module.svelte",
+            "dir": "src/pages/a/nested",
+            "base": "_module.svelte",
+            "ext": ".svelte",
+            "name": "_module"
           },
           "children": [
             {
