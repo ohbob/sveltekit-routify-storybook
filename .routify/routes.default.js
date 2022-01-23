@@ -42,6 +42,35 @@ export default {
         },
         {
           "meta": {},
+          "id": "_default_a_nested",
+          "name": "nested",
+          "module": false,
+          "file": {
+            "path": "src/pages/a/nested",
+            "dir": "src/pages/a",
+            "base": "nested",
+            "ext": "",
+            "name": "nested"
+          },
+          "children": [
+            {
+              "meta": {},
+              "id": "_default_a_nested_index_svelte",
+              "name": "index",
+              "module": () => import('../src/pages/a/nested/index.svelte'),
+              "file": {
+                "path": "src/pages/a/nested/index.svelte",
+                "dir": "src/pages/a/nested",
+                "base": "index.svelte",
+                "ext": ".svelte",
+                "name": "index"
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "meta": {},
           "id": "_default_a_page_svelte",
           "name": "page",
           "module": () => import('../src/pages/a/page.svelte'),

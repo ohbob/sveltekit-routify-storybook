@@ -4,7 +4,7 @@
 
 
 <div class="container mx-auto p-20">
-  from routes
+  <p class="mb-5">Layout from /routes folder</p>
   <slot />
 </div>
 

@@ -2,6 +2,6 @@
   import '../app.css'
 </script>
 
-from routes
+<p>Layout from /routes folder</p>
 <slot />
 
