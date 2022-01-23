@@ -1,0 +1,91 @@
+{
+  ".svelte-kit/build/app.js": {
+    "file": "app.js",
+    "src": ".svelte-kit/build/app.js",
+    "isEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ],
+    "css": [
+      "assets/app-cf837c50.css"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ],
+    "css": [
+      "assets/app-d31d8ffd.css"
+    ]
+  },
+  ".svelte-kit/build/components/error.svelte": {
+    "file": "entries/pages/error.svelte.js",
+    "src": ".svelte-kit/build/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ]
+  },
+  "src/routes/#__layout.svelte": {
+    "file": "entries/pages/___layout.svelte.js",
+    "src": "src/routes/#__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ],
+    "css": [
+      "assets/app-d31d8ffd.css"
+    ]
+  },
+  "src/routes/[...index].svelte": {
+    "file": "entries/pages/_...index_.svelte.js",
+    "src": "src/routes/[...index].svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-774a777c.js",
+      "__...index_-a2af345d.js"
+    ]
+  },
+  "_index-774a777c.js": {
+    "file": "chunks/index-774a777c.js"
+  },
+  "__...index_-a2af345d.js": {
+    "file": "chunks/_...index_-a2af345d.js",
+    "imports": [
+      "_index-774a777c.js"
+    ],
+    "dynamicImports": [
+      "src/pages/a/__reset.svelte",
+      "src/pages/a/page.svelte",
+      "src/pages/index.svelte"
+    ]
+  },
+  "src/pages/a/__reset.svelte": {
+    "file": "chunks/__reset-69eb23c9.js",
+    "src": "src/pages/a/__reset.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ]
+  },
+  "src/pages/a/page.svelte": {
+    "file": "chunks/page-39e5ee49.js",
+    "src": "src/pages/a/page.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-774a777c.js"
+    ]
+  },
+  "src/pages/index.svelte": {
+    "file": "chunks/index-89cba50d.js",
+    "src": "src/pages/index.svelte",
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-774a777c.js",
+      "__...index_-a2af345d.js"
+    ]
+  }
+}
