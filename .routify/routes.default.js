@@ -16,78 +16,6 @@ export default {
   "children": [
     {
       "meta": {},
-      "id": "_default_a",
-      "name": "a",
-      "module": false,
-      "file": {
-        "path": "src/pages/a",
-        "dir": "src/pages",
-        "base": "a",
-        "ext": "",
-        "name": "a"
-      },
-      "children": [
-        {
-          "meta": {},
-          "id": "_default_a_index_svelte",
-          "name": "index",
-          "module": () => import('../src/pages/a/index.svelte'),
-          "file": {
-            "path": "src/pages/a/index.svelte",
-            "dir": "src/pages/a",
-            "base": "index.svelte",
-            "ext": ".svelte",
-            "name": "index"
-          },
-          "children": []
-        },
-        {
-          "meta": {},
-          "id": "_default_a_nested",
-          "name": "nested",
-          "module": () => import('../src/pages/a/nested/_module.svelte'),
-          "file": {
-            "path": "src/pages/a/nested/_module.svelte",
-            "dir": "src/pages/a/nested",
-            "base": "_module.svelte",
-            "ext": ".svelte",
-            "name": "_module"
-          },
-          "children": [
-            {
-              "meta": {},
-              "id": "_default_a_nested_index_svelte",
-              "name": "index",
-              "module": () => import('../src/pages/a/nested/index.svelte'),
-              "file": {
-                "path": "src/pages/a/nested/index.svelte",
-                "dir": "src/pages/a/nested",
-                "base": "index.svelte",
-                "ext": ".svelte",
-                "name": "index"
-              },
-              "children": []
-            }
-          ]
-        },
-        {
-          "meta": {},
-          "id": "_default_a_page_svelte",
-          "name": "page",
-          "module": () => import('../src/pages/a/page.svelte'),
-          "file": {
-            "path": "src/pages/a/page.svelte",
-            "dir": "src/pages/a",
-            "base": "page.svelte",
-            "ext": ".svelte",
-            "name": "page"
-          },
-          "children": []
-        }
-      ]
-    },
-    {
-      "meta": {},
       "id": "_default_index_svelte",
       "name": "index",
       "module": () => import('../src/pages/index.svelte'),
@@ -99,6 +27,64 @@ export default {
         "name": "index"
       },
       "children": []
+    },
+    {
+      "meta": {},
+      "id": "_default_one",
+      "name": "one",
+      "module": false,
+      "file": {
+        "path": "src/pages/one",
+        "dir": "src/pages",
+        "base": "one",
+        "ext": "",
+        "name": "one"
+      },
+      "children": [
+        {
+          "meta": {},
+          "id": "_default_one_index_svelte",
+          "name": "index",
+          "module": () => import('../src/pages/one/index.svelte'),
+          "file": {
+            "path": "src/pages/one/index.svelte",
+            "dir": "src/pages/one",
+            "base": "index.svelte",
+            "ext": ".svelte",
+            "name": "index"
+          },
+          "children": []
+        },
+        {
+          "meta": {},
+          "id": "_default_one_two",
+          "name": "two",
+          "module": false,
+          "file": {
+            "path": "src/pages/one/two",
+            "dir": "src/pages/one",
+            "base": "two",
+            "ext": "",
+            "name": "two"
+          },
+          "children": [
+            {
+              "meta": {},
+              "id": "_default_one_two_index_svelte",
+              "name": "index",
+              "module": () => import('../src/pages/one/two/index.svelte'),
+              "file": {
+                "path": "src/pages/one/two/index.svelte",
+                "dir": "src/pages/one/two",
+                "base": "index.svelte",
+                "ext": ".svelte",
+                "name": "index"
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }

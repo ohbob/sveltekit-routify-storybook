@@ -4,7 +4,7 @@
   export let active = false;
 </script>
 
-<button class:active on:click={() => active = !active} class="{cls}">
+<button class="{cls}" class:active on:click={() => active = !active}>
   {label}
 </button>
 
@@ -20,15 +20,13 @@
 
   button:hover {
     background-position: left;
-    color:black;
+    color: black;
   }
 
-  .active{
-      background: white;
-      color:black;
+  .active {
+    background: white;
+    color: black;
   }
-
-
 
   .primary {
     background: black;
@@ -37,6 +35,7 @@
     background-size: 210%;
     border: 1px solid black;
   }
+
   .primary:hover {
     color: black;
   }
